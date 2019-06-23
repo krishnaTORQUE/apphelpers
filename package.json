@@ -1,0 +1,17 @@
+{
+  "name": "apphelpers",
+  "version": "1.0.1",
+  "description": "Node Js App Helper Functions",
+  "homepage": "https://github.com/krishnaTORQUE/apphelpers",
+  "main": "index.js",
+  "keywords": [
+    "Javascript Helpers",
+    "Helper Functions"
+  ],
+  "author": "Krishna Torque",
+  "license": "GNU GPL V2",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/krishnaTORQUE/apphelpers"
+  }
+}
