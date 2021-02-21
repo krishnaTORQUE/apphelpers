@@ -1,6 +1,6 @@
 {
   "name": "apphelpers",
-  "version": "1.0.1",
+  "version": "2.0.0",
   "description": "Node Js App Helper Functions",
   "homepage": "https://github.com/krishnaTORQUE/apphelpers",
   "main": "index.js",
