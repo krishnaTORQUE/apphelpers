@@ -1,5 +1,10 @@
 # Change Log & History
 
-> ##### 23-06-2019 ~ _v1.0.1_ : _Stable_
+> #### 2021-02-21 - v2.0.0 Stable
+
+	Move to Typescript
+	Review & Checked All Codes
+
+> #### 2019-06-23 - v1.0.1 Stable
 
 	Initial Release

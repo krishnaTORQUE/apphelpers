@@ -1,50 +1,51 @@
 # AppHelpers
 
-**v1.0.1 : _Stable_**
+Node Js Backend App Helper Functions
 
+Always Check [CHANGELOG](CHANGELOG.md) before Install or Update
 
-> #### _Description_
+### Examples
 
-Node Js App Helper Functions
-
+_Typescript_
 
 ```javascript
-const apphelpers = require('apphelpers');
-let helpers = new apphelpers();
-/**
- * Example
- */
-helpers.ucwords('hello world').then(str => {
-    console.log(str);
-    // return Hello World
-});
+import { ucwords } from 'apphelpers';
+const str = await ucwords('hello world');
+console.log(str); // return Hello World
 ```
 
+_Common Js_
 
-#### List of Functions
+```javascript
+const { ucwords } = require('apphelpers');
+const str = await ucwords('hello world');
+console.log(str); // return Hello World
+```
 
-**trims**
+> All Functions are Promise based
 
-**fupper**
+### List of Functions
 
-**ucwords**
+trims
 
-**randStr**
+fupper
 
-**randNum**
+ucwords
 
-**validNum**
+randStr
 
-**validEmail**
+randNum
 
-**validUrl**
+validEmail
 
-**getBrowser**
+validNum
 
-**getOS**
+validUrl
 
-**isMobile**
+getBrowser
 
+getOS
 
-> ## _License (C) 2019 under GNU GPL V2._
+isMobile
 
+> ## License (C) 2021 under GNU GPL V2.
