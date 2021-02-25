@@ -1,30 +1,42 @@
 # AppHelpers
 
-Node Js Backend App Helper Functions
+Node Js Backend App Helper Functions. Almost ZERO dependency.
 
-Always Check [CHANGELOG](CHANGELOG.md) before Install or Update
+### Example
 
-### Examples
-
-_Typescript_
+_**Typescript**_
 
 ```javascript
 import { ucwords } from 'apphelpers';
-const str = await ucwords('hello world');
-console.log(str); // return Hello World
+// Async Await
+(async () => {
+  const str: string = await ucwords('hello world');
+  console.log(str);
+})();
+// Callback
+ucwords('hello world').then((str: string) => {
+  console.log(str);
+});
+// return Hello World
 ```
 
-_Common Js_
+_**Common Js**_
 
 ```javascript
 const { ucwords } = require('apphelpers');
-const str = await ucwords('hello world');
-console.log(str); // return Hello World
+// Async Await
+(async () => {
+  const str = await ucwords('hello world');
+  console.log(str);
+})();
+// Callback
+ucwords('hello world').then((str) => {
+  console.log(str);
+});
+// return Hello World
 ```
 
-> All Functions are Promise based
-
-### List of Functions
+> ### List of Functions (_all return Promise_)
 
 trims
 
@@ -48,4 +60,11 @@ getOS
 
 isMobile
 
-> ## License (C) 2021 under GNU GPL V2.
+> ### Notes
+
+- Always Check `Log` before Install or Update.
+- Contact or create an issue if you found any bug.
+- This repository is open for Pull Request.
+- It will be helpful if you can sponsor.
+
+> ## License under GNU GPL V2
