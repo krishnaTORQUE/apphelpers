@@ -1,7 +1,7 @@
 {
   "name": "apphelpers",
   "version": "2.0.0",
-  "description": "Node Js App Helper Functions",
+  "description": "Node Js Backend App Helper Functions",
   "homepage": "https://github.com/krishnaTORQUE/apphelpers",
   "main": "index.js",
   "keywords": [
@@ -16,6 +16,6 @@
   },
   "dependencies": {
     "@types/node": "^14.14.31",
-    "typescript": "^4.1.5"
+    "typescript": "^4.2.2"
   }
 }
