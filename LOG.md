@@ -1,4 +1,4 @@
-- 230f720 (HEAD -> master, tag: v2.1.0, origin/master, origin/HEAD) v2.1.0
+> ## v2.1.0
 
 80e2a34 Move to Yarn
 
@@ -20,10 +20,10 @@ adef73a Minor Changes in config file
 
 22d9bc6 Create LICENSE
 
-- c627247 (tag: v2.0.0) 2.0.0
+> ## v2.0.0
 
 96dff9c Move to Typescript & More
 
-- dceac88 23-06-2019
+> ## v1.0.0
 
 57138e3 Initial commit
