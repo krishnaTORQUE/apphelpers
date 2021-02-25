@@ -60,11 +60,23 @@ getOS
 
 isMobile
 
+> ### List of Todos
+
+JSON Minify
+
+Valid Alphabet
+
+Match Email
+
+Match Phone Number
+
+Is user using Proxy
+
 > ### Notes
 
 - Always Check `Log` before Install or Update.
 - Contact or create an issue if you found any bug.
 - This repository is open for Pull Request.
-- It will be helpful if you can sponsor.
+- It will be helpful, if you can **Sponsor**.
 
 > ## License under GNU GPL V2
