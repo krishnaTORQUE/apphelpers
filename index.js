@@ -39,7 +39,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
     return (mod && mod.__esModule) ? mod : { "default": mod };
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.isMobile = exports.getOS = exports.getBrowser = exports.validUrl = exports.validNum = exports.validEmail = exports.randNum = exports.randStr = exports.ucwords = exports.fupper = exports.trims = void 0;
+exports.isMobile = exports.getOS = exports.getBrowser = exports.matchEmail = exports.validUrl = exports.validNum = exports.validEmail = exports.randNum = exports.randStr = exports.ucwords = exports.fupper = exports.trims = void 0;
 var crypto_1 = __importDefault(require("crypto"));
 var trims = function (str, char) { return __awaiter(void 0, void 0, void 0, function () {
     var regex;
@@ -116,6 +116,15 @@ var validUrl = function (url) { return __awaiter(void 0, void 0, void 0, functio
     });
 }); };
 exports.validUrl = validUrl;
+var matchEmail = function (content) { return __awaiter(void 0, void 0, void 0, function () {
+    var regex;
+    return __generator(this, function (_a) {
+        content = content.toString();
+        regex = new RegExp('([a-zA-Z0-9._-]+@[a-zA-Z0-9._-]+.[a-zA-Z0-9._-]+)', 'gm');
+        return [2, content.match(regex) || []];
+    });
+}); };
+exports.matchEmail = matchEmail;
 var getBrowser = function (agent) { return __awaiter(void 0, void 0, void 0, function () {
     var browserList, theBrowser, _i, browserList_1, browser;
     return __generator(this, function (_a) {

@@ -54,6 +54,8 @@ validNum
 
 validUrl
 
+matchEmail
+
 getBrowser
 
 getOS
@@ -65,8 +67,6 @@ isMobile
 JSON Minify
 
 Valid Alphabet
-
-Match Email
 
 Match Phone Number
 

@@ -85,6 +85,20 @@ export const validUrl = async (url: string): Promise<boolean> => {
   return regex.test(url);
 };
 /**
+ * Match Email in Content
+ * @param {content} any string | number
+ */
+export const matchEmail = async (
+  content: string | number
+): Promise<string[]> => {
+  content = content.toString();
+  const regex: RegExp = new RegExp(
+    '([a-zA-Z0-9._-]+@[a-zA-Z0-9._-]+.[a-zA-Z0-9._-]+)',
+    'gm'
+  );
+  return content.match(regex) || [];
+};
+/**
  * Client Browser
  * @param {agent} string Useragent
  */
